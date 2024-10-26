@@ -1,4 +1,4 @@
-import { CheckIcon } from '@heroicons/react/20/solid'
+import { FaCheck } from "react-icons/fa6";
 
 import Heading from '../components/Heading'  // Adjust the path based on where you place the Heading component
 
@@ -101,7 +101,7 @@ export default function Example() {
             >
               {tier.features.map((feature) => (
                 <li key={feature} className="flex gap-x-3">
-                  <CheckIcon
+                  <FaCheck
                     aria-hidden="true"
                     className={classNames(tier.featured ? 'text-indigo-400' : 'text-indigo-600', 'h-6 w-5 flex-none')}
                   />
