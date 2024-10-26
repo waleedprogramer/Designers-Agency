@@ -26,7 +26,7 @@ function Mission () {
         </p>
         <p className="text-gray-600 mt-4">
           We are committed to creating designs that inspire and connect our
-          clients in the marketplace. Our focus is on understanding our clients'
+          clients in the marketplace. Our focus is on understanding our clients
           unique needs and delivering designs that not only meet but exceed
           their expectations.
         </p>
